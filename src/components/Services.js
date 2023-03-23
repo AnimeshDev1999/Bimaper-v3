@@ -46,11 +46,11 @@ const Services = () => {
     },
   ];
   return (
-    <div className="px-40 py-20 bg-sky-100">
+    <div className="px-40 py-20">
       <h2 className="font-bold text-4xl mb-14 tracking-tighter">
         Our <span className="text-sky-500">Services</span> include
       </h2>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="flex flex-wrap justify-between gap-5">
         {servData.map((item) => (
           <ServiceCard data={item}></ServiceCard>
         ))}

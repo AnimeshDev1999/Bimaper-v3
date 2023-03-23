@@ -4,6 +4,8 @@ import Features from "./components/Features";
 import Services from "./components/Services";
 import Logo from "./components/Logo";
 import Stats from "./components/Stats";
+import Testimonial from "./components/Testimonial";
+import Cta from "./components/Cta";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Features></Features>
       <Services></Services>
       <Stats></Stats>
+      <Testimonial></Testimonial>
+      <Cta></Cta>
     </div>
   );
 }
