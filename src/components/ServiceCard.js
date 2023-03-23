@@ -1,9 +1,9 @@
-import code from "../images/code-slash.svg";
-
-const ServiceCard = () => {
+const ServiceCard = (props) => {
   return (
-    <div>
-      <img src={code} className="ico-service" alt="" />
+    <div className="bg-white rounded-md shadow-md p-8">
+      <img src={props.data.ico} className="ico-service" alt="" />
+      <h3 className="font-semibold text-xl mb-2">{props.data.heading}</h3>
+      {/* <p>{props.data.content}</p> */}
     </div>
   );
 };

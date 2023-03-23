@@ -36,9 +36,9 @@ const Features = () => {
     },
   ];
   return (
-    <div className="p-40 flex">
+    <div className="px-40 mb-36 flex">
       <div className="w-1/2 px-10 flex flex-col gap-6">
-        <h2 className="font-bold text-4xl mb-4">
+        <h2 className="font-bold text-4xl mb-4 tracking-tighter">
           What is <span className="text-sky-500">Bimaper</span>
         </h2>
         <p className="leading-relaxed text-lg">

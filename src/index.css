@@ -20,6 +20,15 @@
     @apply h-9 w-9 mb-6;
   }
   .ico-service {
-    @apply h-9 w-9;
+    @apply h-16 w-16 p-2 bg-sky-200 rounded-md mb-8;
+  }
+  .stat-box {
+    @apply flex flex-col justify-center items-center;
+  }
+  .stat-no {
+    @apply text-5xl font-semibold text-sky-500 mb-4;
+  }
+  .stat-txt {
+    @apply text-lg;
   }
 }

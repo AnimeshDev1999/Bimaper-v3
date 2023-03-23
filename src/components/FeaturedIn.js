@@ -11,7 +11,7 @@ import a10 from "../images/p10.jpg";
 
 const FeaturedIn = () => {
   return (
-    <div className="flex px-40 py-6 gap-4 flex-wrap justify-center items-center">
+    <div className="flex px-40 py-6 mb-36 gap-4 flex-wrap justify-center items-center">
       <img src={a1} className="feature-logo" alt="Featured 1" />
       <img src={a2} className="feature-logo" alt="Featured 2" />
       <img src={a3} className="feature-logo" alt="Featured 3" />
