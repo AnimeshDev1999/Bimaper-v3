@@ -1,6 +1,6 @@
 const Stats = () => {
   return (
-    <div className="flex px-40 py-20 justify-evenly items-center">
+    <div className="flex px-40 py-10 mb-10 justify-evenly items-center">
       <div className="stat-box">
         <p className="stat-no">23+</p>
         <p className="stat-txt">Years of Experience</p>

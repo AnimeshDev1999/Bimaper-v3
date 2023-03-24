@@ -48,9 +48,40 @@
     bottom: -4rem;
   }
   .form-field {
-    @apply w-2/3 h-10 rounded-md;
+    @apply h-8 rounded-md px-3;
   }
   .form-label {
-    @apply text-xl text-sky-900 mb-2;
+    @apply text-2xl text-sky-900 mb-2;
+  }
+  .form-base {
+    @apply flex bg-sky-200 text-sky-900 rounded-md p-20 shadow-md;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(177, 221, 249, 0.925),
+        rgba(93, 151, 233, 0.925)
+      ),
+      url("./images/form-img.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .hero-base {
+    @apply p-40 flex;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.973),
+        rgba(93, 151, 233, 0.959)
+      ),
+      url("./images/one.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .hero-base-two {
+    @apply flex p-10 rounded-md flex-col gap-4 justify-center;
+  }
+  .form-grid {
+    @apply flex flex-wrap gap-10;
+  }
+  .form-box {
+    @apply h-6 w-6 accent-sky-500;
   }
 }

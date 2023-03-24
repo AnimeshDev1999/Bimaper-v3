@@ -2,7 +2,7 @@ import comma from "../images/comma.svg";
 
 const CustomerCard = () => {
   return (
-    <div className="bg-sky-200 p-16 relative rounded-md">
+    <div className="bg-sky-200 shadow-md p-16 relative rounded-md">
       <div className="float-txt">
         <h2 className="text-xl mt-3 px-5 text-sky-800/80 font-semibold mb-2">
           Wilman Infraprojects
