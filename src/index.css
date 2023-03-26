@@ -12,7 +12,7 @@
   .feature-logo {
     aspect-ratio: 3/2;
     object-fit: contain;
-    width: 10rem;
+    width: 8rem;
     filter: grayscale(1) opacity(0.5);
     mix-blend-mode: color-burn;
   }
@@ -37,24 +37,24 @@
     @apply text-lg;
   }
   .float-txt {
-    @apply bg-sky-300 rounded-md px-1 flex flex-col justify-center items-center;
+    @apply bg-sky-200 rounded-md px-1 flex flex-col justify-center items-center;
     position: absolute;
-    top: -3rem;
-    left: -4rem;
+    top: -4rem;
+    left: 3rem;
   }
   .img-test {
     @apply absolute w-28;
-    right: -3rem;
+    right: 3rem;
     bottom: -4rem;
   }
   .form-field {
-    @apply h-8 rounded-md px-3;
+    @apply h-6 rounded-md px-3;
   }
   .form-label {
-    @apply text-2xl text-sky-900 mb-2;
+    @apply text-lg text-sky-900 mb-2;
   }
   .form-base {
-    @apply flex bg-sky-200 text-sky-900 rounded-md p-20 shadow-md;
+    @apply flex bg-sky-200 text-sky-900 rounded-md p-10 shadow-md;
     background-image: linear-gradient(
         to right bottom,
         rgba(177, 221, 249, 0.925),
@@ -83,5 +83,15 @@
   }
   .form-box {
     @apply h-6 w-6 accent-sky-500;
+  }
+  .card-base-test {
+    @apply bg-sky-100 shadow-md p-10 relative rounded-md;
+  }
+  .card-hov {
+    transition: all 0.3s;
+  }
+  .card-hov:hover {
+    @apply shadow-xl;
+    scale: 1.1;
   }
 }

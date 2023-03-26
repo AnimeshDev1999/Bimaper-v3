@@ -37,7 +37,7 @@ const FeaturesTwo = () => {
   ];
   return (
     <div className="px-40 py-10">
-      <h2 className="font-bold text-4xl mb-12 tracking-tighter">
+      <h2 className="font-bold text-3xl mb-12 tracking-tighter">
         Key <span className="text-sky-500">Features</span>
       </h2>
       <div className=" grid gap-5 grid-cols-5">

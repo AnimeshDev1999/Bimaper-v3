@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div>
       <img
-        className="absolute h-10 top-10 left-10"
+        className="absolute h-8 top-8 left-8"
         src={logo}
         alt="Company Logo"
       />

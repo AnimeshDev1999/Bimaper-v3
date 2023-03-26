@@ -47,7 +47,7 @@ const Services = () => {
   ];
   return (
     <div className="p-40">
-      <h2 className="font-bold text-4xl mb-14 tracking-tighter">
+      <h2 className="font-bold text-3xl mb-14 tracking-tighter">
         Our <span className="text-sky-500">Services</span> include
       </h2>
       <div className="flex flex-wrap justify-between gap-5">
