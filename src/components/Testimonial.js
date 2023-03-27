@@ -29,13 +29,13 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="p-40 overflow-hidden">
+    <div className="px-40 py-20 overflow-hidden">
       <h2 className="font-bold text-3xl mb-20 tracking-tighter">
         A word from our <span className="text-sky-500">Clients</span>
       </h2>
       <div className="grid grid-cols-2 gap-x-10 gap-y-20">
         {dataCust.map((item) => (
-          <CustomerCard data={item}></CustomerCard>
+          <CustomerCard key={item.name} data={item}></CustomerCard>
         ))}
       </div>
     </div>

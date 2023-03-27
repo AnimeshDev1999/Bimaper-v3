@@ -1,6 +1,6 @@
 const Cta = () => {
   return (
-    <div className="p-40">
+    <div className="px-40 py-20">
       <div className="form-base">
         <form action="" className="relative">
           <h2 className="font-bold text-sky-900 text-3xl mb-4 tracking-tighter">

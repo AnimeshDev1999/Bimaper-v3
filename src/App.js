@@ -14,13 +14,13 @@ function App() {
     <div className="relative border-b-8 border-b-sky-500">
       <Logo></Logo>
       <Hero></Hero>
-      <FeaturedIn></FeaturedIn>
       <Services></Services>
-      <Features></Features>
-      <Testimonial></Testimonial>
       <FeaturesTwo></FeaturesTwo>
-      <Cta></Cta>
+      <Features></Features>
       <Stats></Stats>
+      <FeaturedIn></FeaturedIn>
+      <Testimonial></Testimonial>
+      <Cta></Cta>
       <Footer></Footer>
     </div>
   );
