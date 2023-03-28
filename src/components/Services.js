@@ -50,7 +50,7 @@ const Services = () => {
       <h2 className="font-bold text-3xl mb-14 tracking-tighter">
         Our <span className="text-sky-500">Services</span> include
       </h2>
-      <div className="flex flex-wrap justify-between gap-5">
+      <div className="cls flex flex-wrap justify-start justify-between gap-5">
         {servData.map((item) => (
           <ServiceCard key={item.heading} data={item}></ServiceCard>
         ))}
