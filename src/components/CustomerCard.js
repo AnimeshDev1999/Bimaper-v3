@@ -11,10 +11,15 @@ const CustomerCard = (props) => {
           {props.data.work}
         </h3>
       </div>
+      <img src={props.data.img} className="float-img" alt="company stamp" />
       <p className="italic text-sky-900 text-lg font-semibold leading-relaxed">
         {props.data.quote}
       </p>
-      <img src={comma} className="img-test" alt="" />
+      <img
+        src={comma}
+        className="img-test"
+        alt="testimonial card decoraction"
+      />
     </div>
   );
 };

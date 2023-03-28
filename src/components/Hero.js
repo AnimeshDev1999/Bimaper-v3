@@ -10,7 +10,7 @@ const Hero = () => {
           State-of-the-art infrastructure, modern technology, well qualified and
           experienced human <br /> resources with high end software technology.
         </p>
-        <button className="w-max bg-sky-500 text-slate-100 p-3 text-lg rounded-md">
+        <button className="w-max bg-sky-500 hover:bg-sky-900 duration-500 text-slate-100 p-3 text-lg rounded-md">
           Browse services
         </button>
       </div>

@@ -77,12 +77,12 @@ const Cta = () => {
             <input
               type="submit"
               value="Submit"
-              className="bg-sky-700 text-lg cursor-pointer px-5 py-2 text-slate-100 rounded-md"
+              className="bg-sky-700 hover:bg-sky-500 duration-500 text-lg cursor-pointer px-5 py-2 text-slate-100 hover:text-slate-900 rounded-md"
             />
             <input
               type="reset"
               value="Clear"
-              className="bg-slate-100 text-lg cursor-pointer px-5 py-2 text-sky-900 rounded-md"
+              className="bg-slate-100 hover:bg-slate-600 text-lg cursor-pointer px-5 py-2 text-sky-900 hover:text-slate-100 duration-500 rounded-md"
             />
           </div>
         </form>
