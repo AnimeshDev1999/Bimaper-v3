@@ -12,7 +12,7 @@ const CustomerCard = (props) => {
         </h3>
       </div>
       <img src={props.data.img} className="float-img" alt="company stamp" />
-      <p className="italic text-sky-900 text-lg font-semibold leading-relaxed">
+      <p className="italic text-sky-900 text-md font-semibold leading-relaxed">
         {props.data.quote}
       </p>
       <img

@@ -14,7 +14,7 @@ const Stats = () => {
       //   setCounterOn(false);
       // }}
     >
-      <div className="flex px-40 py-10 justify-evenly items-center">
+      <div className="grid xs:grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 sm:px-0 md:px-20 gap-y-10 lg:px-40 xl:px-40 2xl:px-40 py-10 justify-evenly items-center">
         <div className="stat-box">
           <p className="stat-no">
             {counterOn && (

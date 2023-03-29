@@ -28,7 +28,7 @@ const Footer = () => {
           Pradesh, India - 226016
         </p>
       </div>
-      <div className="flex flex-col gap-4 justify-center items-end">
+      <div className="flex gap-4 justify-center items-end">
         <img src={facebook} className="footer-ico" alt="facebook icon" />
         <img src={twitter} className="footer-ico" alt="twitter icon" />
         <img src={linkedin} className="footer-ico" alt="linkedin icon" />

@@ -1,8 +1,8 @@
 const Features = () => {
   return (
-    <div className="px-40 py-10 flex">
+    <div className="xs:px-10 sm:px-10 md:px-20 lg:px-40 xl:px-40 2xl:px-40 py-10 flex">
       <div className="flex flex-col gap-6">
-        <h2 className="font-bold text-3xl mb-4 tracking-tighter">
+        <h2 className="font-bold xs:text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl 2xl:text-3xl mb-4 tracking-tighter">
           What is <span className="text-sky-500">Bimaper</span>
         </h2>
         <p className="leading-relaxed text-md">

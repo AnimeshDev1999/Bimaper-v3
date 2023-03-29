@@ -32,10 +32,10 @@
     @apply flex flex-col justify-center items-center;
   }
   .stat-no {
-    @apply text-5xl font-semibold text-sky-500 mb-4;
+    @apply xs:text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl font-semibold text-sky-500 mb-4;
   }
   .stat-txt {
-    @apply text-lg;
+    @apply sm:text-sm md:text-lg xl:text-lg 2xl:text-lg;
   }
   .float-txt {
     @apply bg-sky-200 rounded-md px-1 flex flex-col justify-center items-center;
@@ -55,13 +55,13 @@
     bottom: -4rem;
   }
   .form-field {
-    @apply h-6 rounded-md px-3;
+    @apply h-6 rounded-md px-3 xs:w-2/3 sm:w-max md:w-max lg:w-max xl:w-max 2xl:w-max;
   }
   .form-label {
     @apply text-lg text-sky-900 mb-2;
   }
   .form-base {
-    @apply flex bg-sky-200 text-sky-900 rounded-md p-10 shadow-md;
+    @apply flex bg-sky-200 text-sky-900 rounded-md xs:p-5 sm:p-10 md:p-10 lg:p-10 xl:p-10 2xl:p-10 shadow-md;
     background-image: linear-gradient(
         to right bottom,
         rgba(177, 221, 249, 0.925),
@@ -72,7 +72,7 @@
     background-position: center;
   }
   .hero-base {
-    @apply px-40 py-20 flex;
+    @apply sm:px-5 md:px-20 lg:px-40 xl:px-40 py-20 flex;
     background-image: linear-gradient(
         to right bottom,
         rgba(255, 255, 255, 0.973),
@@ -108,9 +108,6 @@
     @apply h-6 cursor-pointer;
   }
   .footer-container-base {
-    @apply px-20 p-10 bg-slate-100 text-sm;
-    display: grid;
-    gap: 2.5rem;
-    grid-template-columns: 6fr 6fr 1fr;
+    @apply xs:px-10 sm:px-20 md:px-20 lg:px-20 xl:px-20 2xl:px-20 p-10 grid gap-10 bg-slate-100 text-sm grid-cols-1;
   }
 }

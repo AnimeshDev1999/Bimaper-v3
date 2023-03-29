@@ -37,11 +37,11 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="px-40 py-20 overflow-hidden">
-      <h2 className="font-bold text-3xl mb-20 tracking-tighter">
+    <div className="xs:px-10 sm:px-10 md:px-20 lg:px-40 xl:px-40 2xl:px-40 py-20 overflow-hidden">
+      <h2 className="font-bold xs:text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl 2xl:text-3xl mb-20 tracking-tighter">
         A word from our <span className="text-sky-500">Clients</span>
       </h2>
-      <div className="grid grid-cols-2 gap-x-10 gap-y-20">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-x-10 xs:gap-y-24 sm:gap-y-24 md:gap-y-28 lg:gap-y-36 xl:gap-y-20">
         {dataCust.map((item) => (
           <CustomerCard key={item.name} data={item}></CustomerCard>
         ))}

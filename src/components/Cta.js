@@ -1,9 +1,9 @@
 const Cta = () => {
   return (
-    <div className="px-40 py-20">
+    <div className="xs:px-5 sm:px-10 md:px-20 lg:px-40 xl:px-40 2xl:px-40 py-20">
       <div className="form-base">
         <form action="" className="relative">
-          <h2 className="font-bold text-sky-900 text-3xl mb-4 tracking-tighter">
+          <h2 className="font-bold text-sky-900 xs:text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl 2xl:text-3xl mb-4 tracking-tighter">
             Have a <span className="text-sky-500">Project</span> in mind?
           </h2>
           <p className="text-lg text-sky-900 mb-16">
@@ -11,7 +11,7 @@ const Cta = () => {
             you.
           </p>
           <p className="text-md text-sky-900 mb-2">Personal information</p>
-          <div className="form-grid mb-10 border-4 border-sky-900/20 rounded-md p-10">
+          <div className="form-grid mb-10 border-4 border-sky-900/20 rounded-md p-5">
             <label htmlFor="" className="form-label">
               Name &nbsp;
               <input type="text" className="form-field" />
@@ -27,7 +27,7 @@ const Cta = () => {
           </div>
           <div className="mb-10">
             <p className="text-md text-sky-900 mb-2">Choose your service</p>
-            <div className="flex flex-wrap gap-x-16 gap-y-5 border-4 border-sky-900/20 rounded-md p-10">
+            <div className="flex flex-wrap gap-x-16 gap-y-5 border-4 border-sky-900/20 rounded-md p-5">
               <label htmlFor="" className="form-label">
                 Web Design & Development &nbsp;
                 <input type="checkbox" className="form-box" name="" id="" />
@@ -58,7 +58,7 @@ const Cta = () => {
             <p className="text-md text-sky-900 mb-2">
               Preferred mode of communication
             </p>
-            <div className="flex gap-16 border-4 border-sky-900/20 rounded-md p-10">
+            <div className="flex gap-16 border-4 border-sky-900/20 rounded-md p-5">
               <label htmlFor="" className="form-label">
                 Email &nbsp;
                 <input type="checkbox" className="form-box" name="" id="" />
@@ -73,16 +73,16 @@ const Cta = () => {
               </label>
             </div>
           </div>
-          <div className="flex gap-10">
+          <div className="flex xs:gap-5 sm:gap-10 md:gap-10 lg:gap-10 xl:gap-10 2xl:gap-10">
             <input
               type="submit"
               value="Submit"
-              className="bg-sky-700 hover:bg-sky-500 duration-500 text-lg cursor-pointer px-5 py-2 text-slate-100 hover:text-slate-900 rounded-md"
+              className="bg-sky-700 hover:bg-sky-500 duration-500 xs:text-base sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg cursor-pointer px-5 py-2 text-slate-100 hover:text-slate-900 rounded-md"
             />
             <input
               type="reset"
               value="Clear"
-              className="bg-slate-100 hover:bg-slate-600 text-lg cursor-pointer px-5 py-2 text-sky-900 hover:text-slate-100 duration-500 rounded-md"
+              className="bg-slate-100 hover:bg-slate-600 xs:text-base sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg cursor-pointer px-5 py-2 text-sky-900 hover:text-slate-100 duration-500 rounded-md"
             />
           </div>
         </form>
